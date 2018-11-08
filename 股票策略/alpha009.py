@@ -50,17 +50,17 @@ def on_data(context):
     c2 = delta[:, -5:].max(axis=1) < 0
     c21 = np.logical_and(~c1, c2)
     c3 = np.logical_or(c1, c2)
-    alpha009[c1] = delta[:, -1]
-    alpha009[c21] = delta[:, -1]
-    alpha009[~c3] = -delta[:, -1]
+    alpha009[c1] = delta[:, -1][c1]
+    alpha009[c21] = delta[:, -1][c21]
+    alpha009[~c3] = -delta[:, -1][~c3]
     num = (np.isnan(alpha009) > 0).sum()
     if num > context.Tlen - context.num:
         return
-    targets = np.array(range(context.Tlen)).tolist()
-    selected = set(np.argsort(alpha009)[-context.num:])
+    targets = np.array(range(context.Tlen))
+    selected = set(np.argsort(alpha009)[-context.num:].tolist())
     money_per = total_value * 0.8 / context.num
-    valid = set(targets[np.logical_and(volume[:, -1] != 0, high[:, -1] != low[:, -1])])
-    opened = set(targets[long_positions > 0])
+    valid = set(targets[np.logical_and(volume[:, -1] != 0, high[:, -1] != low[:, -1])].tolist())
+    opened = set(targets[long_positions > 0].tolist())
     short_targets = valid & opened - selected
     long_targets = valid & selected
     for target in short_targets:
@@ -74,8 +74,8 @@ if __name__ == '__main__':
     end = '2018-01-01'
     cons_date = dt.datetime.strptime(begin, '%Y-%m-%d') - dt.timedelta(days=1)
     targetlist = get_code_list('hs300', cons_date)['code'].tolist()
-    run_backtest(strategy_name='alpha001',
-                 file_path='alpha001.py',
+    run_backtest(strategy_name='alpha009',
+                 file_path='alpha009.py',
                  target_list=targetlist,
                  frequency='day',
                  fre_num=1,
