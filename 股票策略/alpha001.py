@@ -78,7 +78,7 @@ def on_data(context):
         for target in long_targets:
             if long_positions[target] == 0:
                 order_value(0, target, money_per, 1, 1, 2)
-#### TODo
+
 
 if __name__ == '__main__':
     begin = '2016-01-01'
