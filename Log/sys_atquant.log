@@ -1,0 +1,12 @@
+2018-10-08 17:01:03,868 FuctionName::_write_log - 193 - atrader :: INFO - Begin  back_test_init_sys
+2018-10-08 17:03:09,395 FuctionName::_write_log - 193 - atrader :: INFO - Begin  back_test_init_sys
+2018-10-10 15:05:00,258 FuctionName::_write_log - 193 - atrader :: INFO - Begin  back_test_init_sys
+2018-10-10 15:10:59,576 FuctionName::_write_log - 193 - atrader :: INFO - Python interpreter exit!
+2018-10-10 15:11:29,442 FuctionName::_write_log - 193 - atrader :: INFO - Begin  back_test_init_sys
+2018-10-10 15:12:22,208 FuctionName::_write_log - 193 - atrader :: INFO - Begin  back_test_init_sys
+2018-10-10 15:12:29,554 FuctionName::_write_log - 193 - atrader :: INFO - Begin  back_test_init_sys
+2018-10-10 15:15:02,911 FuctionName::_write_log - 201 - atrader :: WARNING - Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 109, in recv_data
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+2018-10-10 15:15:02,942 FuctionName::_write_log - 193 - atrader :: INFO - Python interpreter exit!

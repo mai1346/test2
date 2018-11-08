@@ -1,0 +1,57 @@
+2018-10-10 15:10:59,574 FuctionName::_write_log - 193 - userlog :: INFO - Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\utils\argchecker.py", line 442, in api_rule_check_wrapper
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\utils\argchecker.py", line 314, in verify
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\utils\argchecker.py", line 58, in _is_exist_path
+atrader.utils.exceptions.InvalidParamError: info:function run_backtest: invalid file_path argument, file path multifactors.py not exist
+,error
+2018-10-10 15:15:02,935 FuctionName::_write_log - 195 - userlog :: ERROR - Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 109, in recv_data
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\mode\entry.py", line 43, in run_backtest
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\mode\_back.py", line 88, in back_test_init_sys
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\api\apiset.py", line 99, in init_target_info
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\api\apiset.py", line 1297, in get_target_info
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atcmd.py", line 206, in atSendCmdGetFutureInfo
+  File "C:\Users\haoyuan.m\AppData\Local\Continuum\anaconda3\envs\Atrader\lib\site-packages\atrader\comm\__init__.py", line 21, in recv_serial
+    return vr.g_ATraderSocket.read_tlv()
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 83, in recv_tlv
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 127, in recv_data
+Exception: 从套接字接收数据时发生了一个错误
+
+2018-10-10 15:15:02,937 FuctionName::_write_log - 193 - userlog :: INFO - 回测总耗时 213.494612 秒
+2018-10-10 15:15:02,941 FuctionName::_write_log - 193 - userlog :: INFO - Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 109, in recv_data
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\mode\entry.py", line 43, in run_backtest
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\mode\_back.py", line 88, in back_test_init_sys
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\api\apiset.py", line 99, in init_target_info
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\api\apiset.py", line 1297, in get_target_info
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atcmd.py", line 206, in atSendCmdGetFutureInfo
+  File "C:\Users\haoyuan.m\AppData\Local\Continuum\anaconda3\envs\Atrader\lib\site-packages\atrader\comm\__init__.py", line 21, in recv_serial
+    return vr.g_ATraderSocket.read_tlv()
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 83, in recv_tlv
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\client.py", line 127, in recv_data
+Exception: 从套接字接收数据时发生了一个错误
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\utils\argchecker.py", line 443, in api_rule_check_wrapper
+  File "C:\Users\haoyuan.m\AppData\Local\Continuum\anaconda3\envs\Atrader\lib\site-packages\atrader\mode\__init__.py", line 39, in run_backtest
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\mode\entry.py", line 78, in run_backtest
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\mode\_back.py", line 313, in back_test_abnormal_clean_up
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atcmd.py", line 1250, in atSendCmdStopTaskBackTest
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atserial.py", line 8691, in ATraderStopTaskBackTest_send
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atserial.py", line 46, in at_bp_serial
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atserial.py", line 7925, in ATraderStopTaskBackTest_param_serial
+  File "E:\BranchTrunk\ToolBox\PythonToolBox\atrader\comm\atserial.py", line 146, in int64_serial
+struct.error: required argument is not an integer
+,error

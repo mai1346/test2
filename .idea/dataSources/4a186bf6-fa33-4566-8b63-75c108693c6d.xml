@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@TLDB">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.10">
+    <root id="1">
+      <ServerVersion>10.50.600</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="BPFactor">
+      <ObjectId>5</ObjectId>
+      <Visible>1</Visible>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="COL2_MARCHPRICEQTY_201808">
+      <ObjectId>55</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="COL2_MARCHPRICEQTY_201809">
+      <ObjectId>132</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="COL2_MARCHPRICEQTY_201810">
+      <ObjectId>63</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="COL2_ORERSTATISTIC_201808">
+      <ObjectId>56</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="COL2_ORERSTATISTIC_201809">
+      <ObjectId>133</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="COL2_ORERSTATISTIC_201810">
+      <ObjectId>64</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="COL2_REALTIMEPRICE_201808">
+      <ObjectId>57</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="COL2_REALTIMEPRICE_201809">
+      <ObjectId>134</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="COL2_REALTIMEPRICE_201810">
+      <ObjectId>65</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="COL2_TAQ_201808">
+      <ObjectId>54</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="COL2_TAQ_201809">
+      <ObjectId>131</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="COL2_TAQ_201810">
+      <ObjectId>46</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="FFL2">
+      <ObjectId>47</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="FFL2_TAQ_201808">
+      <ObjectId>52</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="FFL2_TAQ_201809">
+      <ObjectId>129</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="FFL2_TAQ_201810">
+      <ObjectId>44</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="FFL2_TRDMIN_201808">
+      <ObjectId>53</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="FFL2_TRDMIN_201809">
+      <ObjectId>130</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="FFL2_TRDMIN_201810">
+      <ObjectId>45</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="GTA_FFL2_TAQ_201806">
+      <ObjectId>144</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="23" parent="1" name="GTA_FFL2_TAQ_201807">
+      <ObjectId>145</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="GTA_FFL2_TAQ_201808">
+      <ObjectId>146</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="GTA_FFL2_TRDMIN_201806">
+      <ObjectId>66</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="26" parent="1" name="GTA_FFL2_TRDMIN_201807">
+      <ObjectId>67</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="GTA_FFL2_TRDMIN_201808">
+      <ObjectId>68</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="GTA_IOL2_TAQ_201806">
+      <ObjectId>69</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="29" parent="1" name="GTA_IOL2_TAQ_201807">
+      <ObjectId>70</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="30" parent="1" name="GTA_IOL2_TAQ_201808">
+      <ObjectId>71</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="31" parent="1" name="GTA_IOL2_TRDMIN_201806">
+      <ObjectId>72</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="32" parent="1" name="GTA_IOL2_TRDMIN_201807">
+      <ObjectId>73</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="33" parent="1" name="GTA_IOL2_TRDMIN_201808">
+      <ObjectId>74</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="GTA_MFL2_ARBI_201806">
+      <ObjectId>75</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="35" parent="1" name="GTA_MFL2_MARCHPRICEQTY_201806">
+      <ObjectId>76</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="36" parent="1" name="GTA_MFL2_MARCHPRICEQTY_201807">
+      <ObjectId>77</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="37" parent="1" name="GTA_MFL2_MARCHPRICEQTY_201808">
+      <ObjectId>78</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="38" parent="1" name="GTA_MFL2_ORERSTATISTIC_201806">
+      <ObjectId>79</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="39" parent="1" name="GTA_MFL2_ORERSTATISTIC_201807">
+      <ObjectId>80</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="40" parent="1" name="GTA_MFL2_ORERSTATISTIC_201808">
+      <ObjectId>81</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="41" parent="1" name="GTA_MFL2_REALTIMEPRICE_201806">
+      <ObjectId>82</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="42" parent="1" name="GTA_MFL2_REALTIMEPRICE_201807">
+      <ObjectId>83</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="43" parent="1" name="GTA_MFL2_REALTIMEPRICE_201808">
+      <ObjectId>84</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="44" parent="1" name="GTA_MFL2_TAQ_201806">
+      <ObjectId>85</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="45" parent="1" name="GTA_MFL2_TAQ_201807">
+      <ObjectId>86</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="46" parent="1" name="GTA_MFL2_TAQ_201808">
+      <ObjectId>87</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="47" parent="1" name="GTA_SEL2_INDEX_201805">
+      <ObjectId>88</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="48" parent="1" name="GTA_SEL2_ORDERQUEUE_201805">
+      <ObjectId>89</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="49" parent="1" name="GTA_SEL2_TAQ_201805">
+      <ObjectId>90</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="50" parent="1" name="GTA_SEL2_TRANSACTION_201805">
+      <ObjectId>91</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="51" parent="1" name="GTA_SEL2_VIRTUALAUCTION_201805">
+      <ObjectId>92</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="52" parent="1" name="GTA_SZL2_BULLETIN_201805">
+      <ObjectId>93</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="53" parent="1" name="GTA_SZL2_INDEX_201805">
+      <ObjectId>94</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="54" parent="1" name="GTA_SZL2_ORDERQUEUE_201805">
+      <ObjectId>95</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="55" parent="1" name="GTA_SZL2_ORDER_201805">
+      <ObjectId>96</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="56" parent="1" name="GTA_SZL2_STOCKINFO_201805">
+      <ObjectId>97</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="57" parent="1" name="GTA_SZL2_STOCKSTATUS_201805">
+      <ObjectId>98</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="58" parent="1" name="GTA_SZL2_TAQ_201805">
+      <ObjectId>99</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="59" parent="1" name="GTA_SZL2_TRADE_201805">
+      <ObjectId>100</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="60" parent="1" name="GTA_TFL2_TAQ_201806">
+      <ObjectId>101</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="61" parent="1" name="GTA_TFL2_TAQ_201807">
+      <ObjectId>102</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="62" parent="1" name="GTA_TFL2_TAQ_201808">
+      <ObjectId>103</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="63" parent="1" name="GTA_TFL2_TRDMIN_201806">
+      <ObjectId>104</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="64" parent="1" name="GTA_TFL2_TRDMIN_201807">
+      <ObjectId>105</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="65" parent="1" name="GTA_TFL2_TRDMIN_201808">
+      <ObjectId>106</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="66" parent="1" name="MFL2">
+      <ObjectId>48</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="67" parent="1" name="MFL2_ARBI_201808">
+      <ObjectId>62</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="68" parent="1" name="MFL2_ARBI_201809">
+      <ObjectId>139</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="69" parent="1" name="MFL2_ARBI_201810">
+      <ObjectId>143</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="70" parent="1" name="MFL2_MARCHPRICEQTY_201808">
+      <ObjectId>59</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="71" parent="1" name="MFL2_MARCHPRICEQTY_201809">
+      <ObjectId>136</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="72" parent="1" name="MFL2_MARCHPRICEQTY_201810">
+      <ObjectId>140</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="73" parent="1" name="MFL2_ORERSTATISTIC_201808">
+      <ObjectId>60</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="74" parent="1" name="MFL2_ORERSTATISTIC_201809">
+      <ObjectId>137</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="75" parent="1" name="MFL2_ORERSTATISTIC_201810">
+      <ObjectId>141</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="76" parent="1" name="MFL2_REALTIMEPRICE_201808">
+      <ObjectId>61</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="77" parent="1" name="MFL2_REALTIMEPRICE_201809">
+      <ObjectId>138</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="78" parent="1" name="MFL2_REALTIMEPRICE_201810">
+      <ObjectId>142</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="79" parent="1" name="MFL2_TAQ_201808">
+      <ObjectId>58</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="80" parent="1" name="MFL2_TAQ_201809">
+      <ObjectId>135</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="81" parent="1" name="MFL2_TAQ_201810">
+      <ObjectId>112</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="82" parent="1" name="SEL2_BASICINFO_201806">
+      <ObjectId>8</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="83" parent="1" name="SEL2_BASICINFO_201807">
+      <ObjectId>9</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="84" parent="1" name="SEL2_BASICINFO_201808">
+      <ObjectId>10</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="85" parent="1" name="SEL2_BASICINFO_201809">
+      <ObjectId>116</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="86" parent="1" name="SEL2_BASICINFO_201810">
+      <ObjectId>19</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="87" parent="1" name="SEL2_INDEX_201810">
+      <ObjectId>12</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="88" parent="1" name="SEL2_ORDERQUEUE_201806">
+      <ObjectId>14</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="89" parent="1" name="SEL2_ORDERQUEUE_201807">
+      <ObjectId>15</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="90" parent="1" name="SEL2_ORDERQUEUE_201808">
+      <ObjectId>16</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="91" parent="1" name="SEL2_ORDERQUEUE_201809">
+      <ObjectId>113</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="92" parent="1" name="SEL2_ORDERQUEUE_201810">
+      <ObjectId>13</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="93" parent="1" name="SEL2_TAQ_201809">
+      <ObjectId>114</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="94" parent="1" name="SEL2_TAQ_201810">
+      <ObjectId>17</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="95" parent="1" name="SEL2_TRANSACTION_201809">
+      <ObjectId>115</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="96" parent="1" name="SEL2_TRANSACTION_201810">
+      <ObjectId>18</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="97" parent="1" name="SEL2_VIRTUALAUCTION_201806">
+      <ObjectId>23</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="98" parent="1" name="SEL2_VIRTUALAUCTION_201807">
+      <ObjectId>24</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="99" parent="1" name="SEL2_VIRTUALAUCTION_201808">
+      <ObjectId>25</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="100" parent="1" name="SEL2_VIRTUALAUCTION_201809">
+      <ObjectId>111</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="101" parent="1" name="SEL2_VIRTUALAUCTION_201810">
+      <ObjectId>11</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="102" parent="1" name="SHSOL1_BASICINFO_201808">
+      <ObjectId>109</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="103" parent="1" name="SHSOL1_BASICINFO_201809">
+      <ObjectId>126</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="104" parent="1" name="SHSOL1_BASICINFO_201810">
+      <ObjectId>41</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="105" parent="1" name="SHSOL1_TAQ_201808">
+      <ObjectId>107</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="106" parent="1" name="SHSOL1_TAQ_201809">
+      <ObjectId>124</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="107" parent="1" name="SHSOL1_TAQ_201810">
+      <ObjectId>33</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="108" parent="1" name="SHSOL1_TRDMIN_201808">
+      <ObjectId>108</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="109" parent="1" name="SHSOL1_TRDMIN_201809">
+      <ObjectId>125</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="110" parent="1" name="SHSOL1_TRDMIN_201810">
+      <ObjectId>34</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="111" parent="1" name="SZL2_INDEX_201809">
+      <ObjectId>117</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="112" parent="1" name="SZL2_INDEX_201810">
+      <ObjectId>20</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="113" parent="1" name="SZL2_ORDERQUEUE_201806">
+      <ObjectId>29</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="114" parent="1" name="SZL2_ORDERQUEUE_201807">
+      <ObjectId>30</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="115" parent="1" name="SZL2_ORDERQUEUE_201808">
+      <ObjectId>31</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="116" parent="1" name="SZL2_ORDERQUEUE_201809">
+      <ObjectId>119</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="117" parent="1" name="SZL2_ORDERQUEUE_201810">
+      <ObjectId>22</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="118" parent="1" name="SZL2_ORDER_201809">
+      <ObjectId>118</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="119" parent="1" name="SZL2_ORDER_201810">
+      <ObjectId>21</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="120" parent="1" name="SZL2_STOCKINFO_201806">
+      <ObjectId>35</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="121" parent="1" name="SZL2_STOCKINFO_201807">
+      <ObjectId>36</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="122" parent="1" name="SZL2_STOCKINFO_201808">
+      <ObjectId>37</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="123" parent="1" name="SZL2_STOCKINFO_201809">
+      <ObjectId>121</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="124" parent="1" name="SZL2_STOCKINFO_201810">
+      <ObjectId>27</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="125" parent="1" name="SZL2_STOCKSTATUS_201806">
+      <ObjectId>38</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="126" parent="1" name="SZL2_STOCKSTATUS_201807">
+      <ObjectId>39</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="127" parent="1" name="SZL2_STOCKSTATUS_201808">
+      <ObjectId>40</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="128" parent="1" name="SZL2_STOCKSTATUS_201809">
+      <ObjectId>122</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="129" parent="1" name="SZL2_STOCKSTATUS_201810">
+      <ObjectId>28</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="130" parent="1" name="SZL2_TAQ_201809">
+      <ObjectId>120</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="131" parent="1" name="SZL2_TAQ_201810">
+      <ObjectId>26</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="132" parent="1" name="SZL2_TRADE_201809">
+      <ObjectId>123</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="133" parent="1" name="SZL2_TRADE_201810">
+      <ObjectId>32</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="134" parent="1" name="TFL2">
+      <ObjectId>49</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="135" parent="1" name="TFL2_TAQ_201808">
+      <ObjectId>50</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="136" parent="1" name="TFL2_TAQ_201809">
+      <ObjectId>127</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="137" parent="1" name="TFL2_TAQ_201810">
+      <ObjectId>42</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="138" parent="1" name="TFL2_TRDMIN_201808">
+      <ObjectId>51</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="139" parent="1" name="TFL2_TRDMIN_201809">
+      <ObjectId>128</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="140" parent="1" name="TFL2_TRDMIN_201810">
+      <ObjectId>43</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="141" parent="1" name="TLDB">
+      <ObjectId>6</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="142" parent="1" name="gta_dsp_dtg_test">
+      <ObjectId>7</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="143" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="144" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="145" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="146" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <database id="147" parent="1" name="testdb">
+      <ObjectId>110</ObjectId>
+      <Collation>Chinese_PRC_CI_AS</Collation>
+    </database>
+    <schema id="148" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <Current>1</Current>
+    </schema>
+    <schema id="149" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="150" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="151" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="152" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="153" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="154" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="155" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="156" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="157" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="158" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="159" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="160" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="161" parent="141" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <Current>1</Current>
+    </schema>
+    <schema id="162" parent="141" name="dbo">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="163" parent="141" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="164" parent="141" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="165" parent="141" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="166" parent="141" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="167" parent="141" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="168" parent="141" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="169" parent="141" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="170" parent="141" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="171" parent="141" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="172" parent="141" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="173" parent="141" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+  </database-model>
+</dataSource>
